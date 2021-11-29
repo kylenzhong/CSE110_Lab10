@@ -55,7 +55,7 @@
       charactersLength));
     }
   var user = {
-    key: random
+    key: "",
   };
 
   var ldclient = LDClient.initialize('61a4666039bde50f5725e688', user);
@@ -70,6 +70,7 @@
 
   ldclient.on('ready', render);
   ldclient.on('change', render);
+
 </script>
 
 </html>
